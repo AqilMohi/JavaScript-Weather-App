@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Comic Neue", cursive;
+  background: #e3d4d4;
+  background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.card {
+  padding: 2em;
+  margin: 1em;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 35px;
+  background: #000000d0;
+  box-shadow: 15px 15px 30px #252121, -15px -15px 30px #574f4f;
+  color: white;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  margin: 1em;
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  outline: none;
+  border: none;
+  background: #4d4747;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+input.search-bar {
+  padding: 1em 1em;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  background: #000000d0;
+  font-family: inherit;
+  font-size: 100%;
+  width: calc(100% - 100px);
+  color: white;
+}
+
+button:hover {
+  background: azure;
+}
+
+h1.temperature {
+  margin: 0;
+}
+
+.description {
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.humidity {
+  margin: 0.3em;
+}
